@@ -1,0 +1,23 @@
+glxinfo | grep OpenGL
+-------------------------------------------------------------------------
+OpenGL vendor string: Intel Open Source Technology Center
+OpenGL renderer string: Mesa DRI Intel(R) HD Graphics 630 (Kaby Lake GT2) 
+OpenGL core profile version string: 3.3 (Core Profile) Mesa 19.2.8
+OpenGL core profile shading language version string: 4.50
+OpenGL core profile context flags: (none)
+OpenGL core profile profile mask: core profile
+OpenGL core profile extensions:
+OpenGL version string: 3.3 (Compatibility Profile) Mesa 19.2.8
+OpenGL shading language version string: 4.50
+OpenGL context flags: (none)
+OpenGL profile mask: compatibility profile
+OpenGL extensions:
+OpenGL ES profile version string: OpenGL ES 3.2 Mesa 19.2.8
+OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.20
+OpenGL ES profile extensions:
+
+#########################################################################
+
+export MESA_GL_VERSION_OVERRIDE=3.3
+-------------------------------------------------------------------------
+Set the OpenGL version string: 3.3 (instead of 1.3)
